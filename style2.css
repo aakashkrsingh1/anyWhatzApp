@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #740297;
+}
+.box{
+  width: 300px;
+  height: 800px;
+  padding: 40px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  border-radius: 24px;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+  
+  border:0;
+  border:2px solid;
+  border-color: green;
+}
+.contactbox{
+  border:0;
+  border:2 px solid;
+  border-color: green;
+  scroll-behavior: auto;
+   width: auto ;  
+  padding: 40px;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  border-radius: 24px;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+}
+.box h2,.box h3, .contactbox marquee,.contactbox h4{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.box .header .input input[type = "number"]{
+  border:0;
+  background: none;
+  display: block;
+  box-sizing: border-box;
+  margin: 20px auto;
+  text-align: right;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 230px;
+	
+  outline: none;
+  color: white;
+  font-size: x-large;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "number"]:focus{
+  width: 220px;
+  border-color: #2ecc71;
+}
+.box button[type = "button"],.contactbox button[type = "button"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: green;
+  font-size: match-parent;
+  border-radius: 999px;
+  transition: 0.25s;
+  cursor: pointer;
+  float: none;
+}
+.box button[type = "button"]:hover,.contactbox button[type = "button"]:hover{
+  background: #2ecc71;
+}
+
+
+.box .body {
+	background:none ;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	padding-top:40px;
+	padding-bottom:40px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.box .body .row {
+	width:100%;
+	padding:15px 0;
+}
+
+.box .body .row::after {
+	display:block;
+	content:"";
+	clear:both;
+} 
+
+
+.box .body .row .col-3 {
+	width:33.3333%;
+	float:left;
+	text-align: center;
+}
+.box .body .row .col-3 button  {
+  border:0;
+  background: none;
+  width:80px;
+	height:80px;
+	border-radius:100%;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  border-radius: 999px;
+  outline: none;
+  color: white;
+  transition: 0.25s;
+  font-size: x-large; 
+  
+}
+
+
+.box .body .row .col-3 button :focus{
+  border-color: #2ecc71;
+}
