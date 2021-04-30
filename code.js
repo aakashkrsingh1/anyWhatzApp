@@ -29,5 +29,5 @@ function textWhatsApp(){
 	alert("Invalid Number/ Not on WhatsApp/Reload");
 	 }
 	 function contactAkash(){
-	   window.location.href="https://t.me/emolord1105";
+	   window.location.href="https://t.me/madarauchiha1105";
 	 }
